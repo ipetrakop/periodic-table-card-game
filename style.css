@@ -30,3 +30,16 @@ button {
   text-align: center;
   font-size: 1.2em;
 }
+label {
+  display: block;
+  margin-top: 6px;
+}
+input[type="text"] {
+  width: 100%;
+  background-color: #0a1f44;
+  border: 1px solid gold;
+  color: gold;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+}
