@@ -10,7 +10,10 @@ fetch('cards.json')
   });
 
 function createCards(data) {
-  data.forEach(card => {
+  // Ανακάτεμα των καρτών τυχαία
+  const shuffled = data.sort(() => Math.random() - 0.5);
+
+  shuffled.forEach(card => {
     const cardDiv = document.createElement('div');
     cardDiv.className = 'card';
     cardDiv.draggable = true;
@@ -27,7 +30,8 @@ function createCards(data) {
 
     addDragEvents(cardDiv);
 
-    const col = document.querySelector(`.column[data-valence='${card.valence}']`);
+    // Αρχικά βάζουμε όλες τις κάρτες σε τυχαίες θέσεις στην πρώτη στήλη (valence=1)
+    const col = document.querySelector(`.column[data-valence='1']`);
     col.appendChild(cardDiv);
   });
 
