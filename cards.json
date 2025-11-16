@@ -1,0 +1,20 @@
+[
+  {"Z":3, "symbol":"Li", "name":"Λίθιο", "mass":6.94, "valence":1},
+  {"Z":4, "symbol":"Be", "name":"Βηρύλλιο", "mass":9.01, "valence":2},
+  {"Z":5, "symbol":"B", "name":"Βόριο", "mass":10.81, "valence":3},
+  {"Z":6, "symbol":"C", "name":"Άνθρακας", "mass":12.01, "valence":4},
+  {"Z":7, "symbol":"N", "name":"Άζωτο", "mass":14.01, "valence":5},
+  {"Z":8, "symbol":"O", "name":"Οξυγόνο", "mass":16.00, "valence":6},
+  {"Z":9, "symbol":"F", "name":"Φθόριο", "mass":19.00, "valence":7},
+  {"Z":10, "symbol":"Ne", "name":"Νέο", "mass":20.10, "valence":8},
+  {"Z":11, "symbol":"Na", "name":"Νάτριο", "mass":22.99, "valence":1},
+  {"Z":12, "symbol":"Mg", "name":"Μαγνήσιο", "mass":24.31, "valence":2},
+  {"Z":13, "symbol":"Al", "name":"Αργίλιο", "mass":26.98, "valence":3},
+  {"Z":14, "symbol":"Si", "name":"Πυρίτιο", "mass":28.09, "valence":4},
+  {"Z":15, "symbol":"P", "name":"Φώσφορος", "mass":30.97, "valence":5},
+  {"Z":16, "symbol":"S", "name":"Θείο", "mass":32.00, "valence":6},
+  {"Z":17, "symbol":"Cl", "name":"Χλώριο", "mass":35.45, "valence":7},
+  {"Z":18, "symbol":"Ar", "name":"Αργό", "mass":39.95, "valence":8},
+  {"Z":19, "symbol":"K", "name":"Κάλιο", "mass":39.10, "valence":1},
+  {"Z":20, "symbol":"Ca", "name":"Ασβέστιο", "mass":40.08, "valence":2}
+]
