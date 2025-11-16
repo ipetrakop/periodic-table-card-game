@@ -1,42 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #0a1f44; /* Σκούρο μπλε */
+  color: gold; /* Χρυσαφί */
+  font-weight: bold;
+  margin: 20px;
 }
 
-#columns-container {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+.columns-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .column {
-    flex: 1;
-    min-width: 150px;
-    border: 2px solid #333;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #f0f0f0;
-}
-
-.column h3 {
-    text-align: center;
+  background-color: #112b5f;
+  border: 2px solid gold;
+  border-radius: 8px;
+  padding: 10px;
+  width: 140px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .card {
-    width: 120px;
-    height: 160px;
-    border: 2px solid #333;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 5px auto;
-    background-color: #fff;
-    text-align: center;
-    cursor: grab;
+  background-color: #224a91;
+  border: 2px solid gold;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: grab;
 }
 
-.card input {
-    width: 100%;
-    margin-top: 5px;
-    text-align: center;
+input[type="text"] {
+  width: 100%;
+  background-color: #0a1f44;
+  border: 1px solid gold;
+  color: gold;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 4px;
+}
+.message {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 10px;
 }
