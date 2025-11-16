@@ -40,10 +40,10 @@ function createCard(element) {
   card.innerHTML = `
     <h4>${element.name}</h4>
     <p>Z=${element.Z}</p>
-    <label>Στοιβάδα 1: <input type="text" data-Z="${element.Z}" data-layer="1" maxlength="2" /></label>
-    <label>Στοιβάδα 2: <input type="text" data-Z="${element.Z}" data-layer="2" maxlength="2" /></label>
-    <label>Στοιβάδα 3: <input type="text" data-Z="${element.Z}" data-layer="3" maxlength="2" /></label>
-    <label>Στοιβάδα 4: <input type="text" data-Z="${element.Z}" data-layer="4" maxlength="2" /></label>
+    <label>K: <input type="text" data-Z="${element.Z}" data-layer="1" maxlength="2" /></label>
+    <label>L: <input type="text" data-Z="${element.Z}" data-layer="2" maxlength="2" /></label>
+    <label>M: <input type="text" data-Z="${element.Z}" data-layer="3" maxlength="2" /></label>
+    <label>N: <input type="text" data-Z="${element.Z}" data-layer="4" maxlength="2" /></label>
   `;
   card.addEventListener("dragstart", dragStartHandler);
   return card;
@@ -85,7 +85,7 @@ function init() {
   initialColumn.className = "column";
   initialColumn.id = "initialColumn";
   const header = document.createElement("h4");
-  header.innerText = "Ατάκτα στοιχεία";
+  header.innerText = "Άτακτα στοιχεία";
   initialColumn.appendChild(header);
   columnsContainer.appendChild(initialColumn);
 
