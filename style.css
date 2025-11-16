@@ -4,33 +4,33 @@ body {
   color: gold;
   margin: 20px;
 }
-#cards-container {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
+#columns-container {
+  display: flex;
   gap: 10px;
-  justify-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.card {
-  width: 100%;
-  max-width: 150px;
-  background-color: #224a91;
+.column {
+  min-width: 150px;
+  min-height: 350px;
+  background-color: #112b5f;
   border: 2px solid gold;
   border-radius: 8px;
   padding: 10px;
-  font-size: 0.85em;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
-h1 {
+.column h4 {
   text-align: center;
+  margin-bottom: 10px;
 }
-button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-}
-#result {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 1.2em;
+.card {
+  background-color: #224a91;
+  border: 2px solid gold;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: grab;
 }
 label {
   display: block;
@@ -44,4 +44,16 @@ input[type="text"] {
   font-weight: bold;
   border-radius: 4px;
   text-align: center;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2em;
 }
