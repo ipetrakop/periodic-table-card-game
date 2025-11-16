@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#columns-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    min-width: 150px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.column h3 {
+    text-align: center;
+}
+
+.card {
+    width: 120px;
+    height: 160px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px auto;
+    background-color: #fff;
+    text-align: center;
+    cursor: grab;
+}
+
+.card input {
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+}
