@@ -5,17 +5,19 @@ body {
   margin: 20px;
 }
 #cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  justify-items: center;
 }
 .card {
+  width: 100%;
+  max-width: 150px;
   background-color: #224a91;
   border: 2px solid gold;
   border-radius: 8px;
-  padding: 15px;
-  width: 250px;
+  padding: 10px;
+  font-size: 0.85em;
 }
 h1 {
   text-align: center;
