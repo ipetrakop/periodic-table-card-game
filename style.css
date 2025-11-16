@@ -11,7 +11,7 @@ body {
   flex-wrap: wrap;
 }
 .column {
-  max-width: 70px;
+  max-width: 3cm; /* πλάτος περίπου 3 εκατοστά */
   min-height: 350px;
   background-color: #112b5f;
   border: 2px solid gold;
@@ -47,6 +47,7 @@ input[type="text"] {
   border-radius: 4px;
   text-align: center;
   font-size: 0.75em;
+  padding: 1px 0;
 }
 button {
   margin-top: 20px;
